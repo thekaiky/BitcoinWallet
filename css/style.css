@@ -1,0 +1,279 @@
+ * {
+     margin: 0%;
+     padding: 0%;
+ }
+
+ @font-face {
+     font-family: Metropolis;
+     src: url(/assets/font/metropolis.otf);
+ }
+
+ .background-color{
+     background-color: rgb(46, 46, 46);
+ }
+
+ .card{
+     background-color: #f7931a;
+     width: 300px;
+     height: 150px;
+     float: top;
+     top: 3%;
+     float: left;
+     left: 17px;
+     position: absolute;
+     border-radius: 10px;
+ }
+ 
+ .bitcoin-header{
+    background-color: #f7931a;
+    width: 900px;
+    height: 150px;
+    float: top;
+    top: -180px;
+    float: left;
+    left: 370px;
+    position: absolute;
+    border-radius: 10px;
+ }
+
+ .transaction{
+   font-family: 'Metropolis', sans-serif;
+   font-size: 12px;
+   opacity: 100%;
+   color: white;
+   position: relative;
+   left: 375px;
+   float: left;
+   top: 8px;
+ }
+ 
+ .transaction-header{
+   background-color: rgb(29, 29, 29);
+   width: 900px;
+   height: 100px;
+   float: top;
+   top: 35px;
+   float: left;
+   left: 370px;
+   position: absolute;
+   border-radius: 10px;
+ }
+
+ .top-transaction{
+   font-family: 'Metropolis', sans-serif;
+   font-size: 9px;
+   opacity: 70%;
+   color: white;
+   position: absolute;
+   left: 10px;
+   float: left;
+   top: 10px;
+ }
+
+ .address-transaction{
+   font-family: 'Metropolis', sans-serif;
+   font-size: 9px;
+   opacity: 90%;
+   color: #f7931a;
+   position: absolute;
+   left: 10px;
+   float: left;
+   top: 45px;
+ }
+
+ .confirmation-transaction{
+   font-family: 'Metropolis', sans-serif;
+   font-size: 7px;
+   opacity: 90%;
+   color: #f7931a;
+   position: absolute;
+   left: 10px;
+   float: left;
+   top: 80px;
+ }
+
+ .text-fix{
+     top: 50px;
+     bottom: 50px;
+     left: 0px;
+     right: 0px;
+     position: absolute;
+     font-size: 42px;
+ }
+
+ .balance{
+     font-family: 'Metropolis', sans-serif;
+     color: white;
+     float: left;
+     position: absolute;
+     left: 15px;
+ }
+
+ .fiat-choose{
+    font-family: 'Metropolis', sans-serif;
+    font-size: 12px;
+    opacity: 70%;
+    color: white;
+    position: absolute;
+    float: bottom;
+    bottom: 10px;
+    float: left;
+    left: 15px;
+ }
+ 
+ .bitcoin-logo-card{
+     width: 40px;
+     position: relative;
+     float: bottom;
+     bottom: -1px;
+     left: 3px;
+ }
+
+ .top{
+     font-family: 'Metropolis', sans-serif;
+     font-size: 12px;
+     color: white;
+     position: absolute;
+     left: 45px;
+     float: left;
+     top: 10px;
+ }
+
+ .balance{
+     font-family: 'Metropolis', sans-serif;
+     color: white;
+     float: left;
+     position: absolute;
+     left: 15px;
+ }
+
+ .fiat-choose{
+    font-family: 'Metropolis', sans-serif;
+    font-size: 12px;
+    opacity: 70%;
+    color: white;
+    position: absolute;
+    float: bottom;
+    bottom: 10px;
+    float: left;
+    left: 15px;
+ }
+
+ .options{
+     position: absolute;
+     float: top;
+     top: 200px;
+     float: left;
+     left: 15px;
+     font-family: 'Metropolis', sans-serif;
+     font-size: 12px;
+     color: white;
+ }
+
+ .home-icon{
+     position: absolute;
+     float: top;
+     top: 0px;
+ }
+
+ .home-text{
+    position: absolute;
+    float: top;
+    top: 1.5px;
+    float: left;
+    left: 30px;
+ }
+
+ .receive-icon{
+    position: absolute;
+    float: top;
+    color: white;
+    top: 50px;
+ }
+
+ .receive-text{
+    position: absolute;
+    float: top;
+    top: 50.5px;
+    float: left;
+    left: 30px;
+ }
+
+ .send-icon{
+    position: absolute;
+    float: top;
+    color: white;
+    top: 100px;
+ }
+
+ .send-text{
+    position: absolute;
+    float: top;
+    top: 100.5px;
+    float: left;
+    left: 30px;
+ }
+
+ .settings-icon{
+    position: absolute;
+    float: top;
+    color: white;
+    top: 430px;
+ }
+
+ .settings-text{
+    position: absolute;
+    float: top;
+    top: 430.5px;
+    float: left;
+    left: 30px;
+ }
+
+ .dark-theme-icon{
+    position: absolute;
+    float: top;
+    color: white;
+    top: 390px;
+ }
+
+ .dark-theme-text{
+    position: absolute;
+    float: top;
+    top: 390.5px;
+    float: left;
+    left: 30px;
+ }
+
+ .info-icon{
+    position: absolute;
+    float: top;
+    color: white;
+    top: 150px;
+ }
+
+ .info-text{
+    position: absolute;
+    float: top;
+    top: 150.5px;
+    float: left;
+    left: 30px;
+ }
+
+ .balance-dollar{
+    font-family: 'Metropolis', sans-serif;
+    font-size: 12px;
+    opacity: 70%;
+    color: white;
+    position: absolute;
+    float: bottom;
+    bottom: 41px;
+    float: left;
+    left: 15px;
+  }
+
+  .other-wallets{
+    position: absolute;
+    float: top;
+    top: 200px;
+    width: 200px;
+  }
